@@ -32,7 +32,7 @@ app.add_exception_handler(
 manifest_json = os.path.join(os.path.dirname(__file__), "..", "webapp", "dist", "manifest.json")
 inertia_config = InertiaConfig(
     manifest_json_path=manifest_json,
-    environment="development",
+    environment="production",
     use_flash_messages=True,
     use_flash_errors=True
 )
